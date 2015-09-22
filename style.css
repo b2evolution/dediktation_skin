@@ -1,0 +1,217 @@
+/* Designed by Emin özlem - http://www.cssdizayn.com/ for b2evolution 2.x series* dediktation skin 0.1*/
+
+@import url("../../rsc/css/basic.css");	/* Import basic styles */
+@import url("../../rsc/css/img.css");	/* Import standard image styles */
+@import url("../../rsc/css/blog_elements.css");	/* Import standard blog elements styles */
+@import url("../../rsc/css/forms.css");	/* Import default form styles */
+@import url("../../rsc/css/comments.css");	/* Import default comment styles */
+
+
+
+/*MAIN BUILD*/
+body, *{
+padding:0;
+margin:0;}
+body {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+#wrapper {
+	background: url(img/1024.jpg) no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+
+}
+
+
+#wrapper ul li {
+list-style-type: none;}
+#header, #footer {
+height: 100px;
+clear: both;
+margin-bottom: 10px;
+}
+
+#contentbackground {
+background: url(img/bg.png);
+width: 680px;
+filter:alpha(opacity=85);
+margin-left: 40px;
+}
+#contentbackground * {/* ie transparency fix*/
+filter:alpha(opacity=100);
+position:relative;
+}
+
+.content {
+padding: 10px;
+}
+
+#sidebarwrapper {
+background: url(img/bg.png);
+width: 160px;
+filter:alpha(opacity=75);
+padding: 15px;
+margin-right: 30px;
+display: inline;
+}
+
+#header, #footer {
+background: url(img/bg5.png);
+filter: alpha(opacity=45);
+}
+
+/*#footer ul li {
+display: inline;}*/
+#sidebarwrapper *, #header *, #footer * {
+filter:alpha(opacity=100);
+position: relative;
+}
+
+#sidebarwrapper {
+float: right;}
+.content {}
+
+#footer {
+margin-top: 10px;
+padding-top: 10px;
+clear: both:}
+
+#footer ul li {
+list-style-type: none;
+display: inline;}
+
+.shiny_bars {margin-top: 15px;}
+.shiny_bars ul li a img {
+display: inline;
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	filter: alpha(opacity=70);}
+	
+.shiny_bars ul li a:hover img {
+display: inline;
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);}
+
+
+
+
+/* = = = = = = = = = = = = = = = = = = =  MAIN elements = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+h1 {
+font-size: 200%;}
+
+h2 {
+font-size: 120%;}
+
+h3 {
+font-size: 110%;}
+h4, h5, h6 {
+font-size: 105%;}
+
+a {
+	color: #CC3399;
+	font-weight: bold;
+	border-bottom: 1px dashed #9933FF;
+	text-decoration: none;
+	letter-spacing: normal;
+}
+
+a:hover {
+color: #9933FF;}
+
+
+.content h2 {
+font-size: 120%}
+
+.topmenu ul li, .headermiddle ul li, .navigation ul li{
+display: inline;
+}
+
+
+#sidebarwrapper, #header, #content {
+}
+.search .SearchField {
+width: 150px;}
+
+#header h1 a {
+background: url(img/title.gif) top center no-repeat;
+height: 70px;
+position: absolute;
+right: 110px;
+border: none;
+padding-top: 15px;
+}
+
+#header ul li a, #footer a {
+background: url(img/linkbg-ie.gif) top center no-repeat;
+height: 30px;
+display: inline-block;
+padding: 10px 2px 0 10px;
+color: #ffffcc;
+border: none;}
+
+#header ul li a:hover, #footer a:hover {
+color: #CC0066;}
+
+.widget_core_coll_tagline {
+background: url(img/linkbg-ie.gif) top center no-repeat;
+height: 40px;
+padding-top: 10px;
+font-size: 8pt;
+color: #000;
+text-align: justify;
+float: right;}
+
+#sidebar ul {
+margin-bottom: 20px;}
+
+.Posts {
+margin-bottom: 40px;}
+
+.permalink {
+float: right;
+font-weight: 100;}
+
+.content h2, #sidebar h2 {
+margin-bottom: 9px;
+text-decoration: none;
+padding-left: 4px;
+border-left: 4px solid #9966CC;}
+
+.postinfo {
+font-style: italic;}
+
+.postinfo a {
+font-style: normal;}
+
+.widget_core_colls_list_public ul li a.selected { color: #000;}
+
+
+/* this css needs reviewing i know :| , i will*/
+
+form.bComment .submit, form.bComment .preview, .compact_search_form .submit, #content .extended_search_form .submit {
+	color: #CC3399;
+	background-color: #fff;
+	border-radius: 0px !important;
+	border:1px solid #fff !important;
+	cursor: pointer;
+}
+#content .extended_search_form .submit {
+	margin-left: 3px;
+}
+form.bComment .submit:hover, form.bComment .preview:hover, .compact_search_form .submit:hover, #content .extended_search_form .submit:hover {
+	opacity: 0.8;
+	background-color: #fff;
+	color: #CC3399;
+}
+#sidebar > ul > li {
+	margin-bottom: 15px;
+}
